@@ -32,3 +32,10 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
 
+Открываем Eclipse IDE и там File->Import->Maven->Existing Maven Projects выбираем и в окне указываем путь к папке проекта school.
+Потом открываем выбранный проект и для запуска нужно чтобы сервер Apache Tomcat 9 был заранее установлен.
+Нажимаем правой кнопкой мыши над проектом и выбираем Run As-> Run on Server
+
+Ждём, когда запуститься сервер. После запуска сервера, заходим в браузере по адресу:
+http://localhost:8081/school/
+И видим результат.
